@@ -1,6 +1,12 @@
-h1 {
-  font-family: 'Montserrat, sans-serif';
-  font-size: 3rem;
+
+#title{
+  background-color: #ff4c68;
+}
+
+ h1{
+  font-family: 'Montserrat-black';
+  font-size: 5rem;
   line-height: 1.5;
-  font-weight: 900;
+  margin-top: 1em;
+  margin-left: 1em;
 }
