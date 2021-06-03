@@ -80,6 +80,14 @@ p {
   margin: 3em 1em 3em;
 }
 
+#cta {
+  text-align: center;
+  background-color: #ff4c68;
+  color: #fff;
+  padding-bottom: 100px;
+  font-family: 'Montserrat', sans-serif;
+}
+
 @media (max-width: 1328px) {
 
   body{
@@ -100,11 +108,16 @@ p {
     font-size: 1rem;
   }
 
+  .fcon{
+    padding-bottom: 50px;
+  }
+
   .first-image {
     transform: rotate(0);
     position: static;
     width: 150px;
     height: 300px
+
 
   }
 
@@ -112,6 +125,7 @@ p {
     width: 180px;
     height: 300px;
     left: 17%;
+    top: 20px;
   }
 
   .card{
@@ -123,12 +137,30 @@ p {
     margin: 1em 1em 1em;
   }
 
+  .plan{
+    width: 232px;
+    text-align: center;
+    margin-left: -2em;
+  }
+
+  .fcol{
+    text-align: center;
+  }
 
   #features {
     padding: 7% 15%;
     background-color: #fff;
     position: relative;
     z-index: 0;
+  }
+
+  #cta{
+    padding-bottom: 50px;
+  }
+
+  #cta > h3{
+    width: 300px;
+    margin-left: 2em;
   }
 }
 
@@ -183,13 +215,7 @@ p {
   padding: 3% 2%;
 }
 
-#cta {
-  text-align: center;
-  background-color: #ff4c68;
-  color: #fff;
-  padding-bottom: 100px;
-  font-family: 'Montserrat', sans-serif;
-}
+
 
 .fl {
   padding-top: 3em;
